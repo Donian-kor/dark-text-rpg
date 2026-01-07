@@ -1,4 +1,4 @@
-저장소(Repository)를 다운로드합니다.
+
 data 폴더가 TextRPG.pyw 파일과 같은 위치에 있는지 확인합니다.
 ===========================
 DarkTextRPG/
