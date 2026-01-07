@@ -1,0 +1,57 @@
+{
+  "ui": {
+    "window_title": "⚔️ Dark Text RPG 20260107",
+    "colors": {
+      "bg_root": "#101010",
+      "bg_panel": "#181818",
+      "bg_list": "#0a0a0a",
+      "bg_log_combat": "#050505",
+      "bg_log_general": "#050505",
+      "text_main": "#cccccc",
+      "text_highlight": "#ffffff",
+      "btn_main": "#333333",
+      "btn_main_hover": "#444444",
+      "btn_red": "#8b0000",
+      "btn_red_hover": "#a50000",
+      "btn_disabled": "#222222",
+      "border": "#444444"
+    },
+    "fonts": {
+      "main": "맑은 고딕"
+    }
+  },
+  "player": {
+    "base_hp": 100,
+    "base_atk": 15,
+    "base_next_exp": 100,
+    "levelup_hp_inc": 27,
+    "levelup_atk_inc": 6,
+    "levelup_exp_inc": 50
+  },
+  "game_rules": {
+    "skill_auto_cast_prob": 0.3,
+    "skill_book_drop_prob_default": 0.06,
+    "skill_book_drop_probs": {
+      "없음": 0.01, "초급": 0.05, "중급": 0.07, "상급": 0.09, "보스": 0.10
+    },
+    "quest_reward_gold": 50
+  },
+  "enhance": {
+    "base_cost": 100,
+    "multiplier": 1.5,
+    "penalties": {}
+  },
+  "enhance_probabilities": {
+    "0-5": {"min": 100, "max": 100},
+    "6-10": {"min": 50, "max": 80},
+    "11-20": {"min": 10, "max": 40}
+  },
+  "difficulty_badges": {
+    "없음": "⚪", "초급": "🟢", "중급": "🟡", "상급": "🟠", "보스": "🔴"
+  },
+  "difficulty_colors": {
+    "없음": "#ffffff", "초급": "#22c55e", "중급": "#ffe924", "상급": "#ffa96b", "보스": "#df0000"
+  },
+  "difficulty_scale": {"없음":1, "초급":2, "중급":5, "상급":8, "보스":10},
+  "difficulty_reward_bonus": {"없음":0.0, "초급":0.10, "중급":0.20, "상급":0.30, "보스":0.40}
+}
